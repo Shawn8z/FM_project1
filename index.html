@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang='en'>
     <head>
+        <title>Stats Preview Card</title>
         <meta charset='utf-8'>
         <meta name='viewport' content= 'width=device-width, initial-scale=1.0'>
-        <link rel='stylesheet' href='style.css'>
-
+        <link rel='stylesheet' href='./preview-card_mobile.css'>
+        <!--<link rel='stylesheet' href='./preview-card.css'> -->
         <link href="https://fonts.google.com/specimen/Lexend+Deca" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
@@ -15,14 +16,14 @@
             <div id = center_block>
                 <div class ='left_subblock'>
                     <div class = text_block>
-                        <h1>Get <mark class = 'purple_text'>insights</mark> that help your business grow.</h1>
+                        <h1 role='banner'>Get <mark class = 'purple_text'>insights</mark> that help your business grow.</h1>
 
-                        <p class= 'small_fonts'>
+                        <p class= 'small_fonts'   role='main'>
                             Discover the benefits of data analytics and make better decisions regarding revenue, customer 
                             experience, and overall efficiency.
                         </p>
 
-                        <table class = our_results>
+                        <table class = our_results role='contentinfo1'>
                             <tr class = 'tr1'>
                                 <th>10k+</th>
                                 <th>314</th>
@@ -37,11 +38,10 @@
                     </div>
                 </div>
                 
-                <div class = 'right_subblock'>
+                <div class = 'right_subblock' role='Picture of people working in an office'>
                     <p class='tint_p'></p>
-                    <img src = 'image-header-desktop.jpg' alt='picture of three women siting by a long woden desk, typing on their laptops.'>
+                    <img src = '../images/image-header-desktop.jpg' alt='picture of three women siting by a long woden desk, typing on their laptops.'>
                 </div>
-
             </div>
         </div>
     </body>
